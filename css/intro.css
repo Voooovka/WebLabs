@@ -1,0 +1,31 @@
+.intro__container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.intro__button {
+    margin-top: 45px;
+}
+
+.intro__title {
+    font-size: 36px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    width: 480px;
+    height: 110px;
+}
+
+.intro__line {
+    position: absolute;
+}
+
+.intro__paragraph {
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 30px;
+    width: 400px;
+    height: 118px;
+}
