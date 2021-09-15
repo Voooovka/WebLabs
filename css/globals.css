@@ -148,4 +148,19 @@ td {
     padding: 4px 0;
     cursor: pointer;
     border-radius: 55px;
+    -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  text-decoration: none;
+  text-align: center;   
 }
+
+.default-button.outlined:hover, .default-button.outlined:focus {
+    color: #fff;
+    outline: 0;
+  }
