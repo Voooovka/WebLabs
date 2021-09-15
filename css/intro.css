@@ -1,0 +1,115 @@
+.intro__container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.intro__button {
+    margin-top: 45px;
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.intro__button:hover{
+    box-shadow: 0 0 40px 40px #458FF6 inset;
+}
+
+.intro__title {
+    font-size: 36px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    width: 480px;
+    height: 110px;
+}
+
+.intro__line {
+    position: absolute;
+}
+
+.intro__paragraph {
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 30px;
+    width: 400px;
+    height: 118px;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro__container {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+    .intro__illustration {
+        display: none;
+    }
+    .intro__title {
+        margin: auto;
+        text-align: center;
+    }
+
+    .intro__line{
+        position: relative;
+        margin: auto;
+    }
+    .intro__paragraph {
+        margin: auto;
+    }
+    .intro__button {
+        margin: 0 auto;
+        margin-top: 10px;
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .intro {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .intro__title {
+        margin: auto;
+    }
+
+    .intro__line{
+        position: relative;
+        margin: auto;
+    }
+    .intro__paragraph {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hero{
+        margin-bottom: 0px;
+    }
+    .intro__title {
+        font-size: 32px;
+        width: 310px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height:180px;
+        margin-top: 50px;
+    }
+
+    .intro__line{
+        display: none;
+    }
+    .intro__paragraph {
+        width: 310px;
+        padding-top: 0px;
+        height:150px;
+        font-size: 16px;
+    }
+
+    .intro__button {
+        width: 180px;
+        height: 52px;
+    }
+}
